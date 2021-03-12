@@ -16,16 +16,12 @@
         "ecmaVersion": 12
     },
     "plugins": [
-        //"react"
+        "react"
     ],
     "rules": {
         "indent": [
             "error",
             4
-        ],
-        "linebreak-style": [
-            "error",
-            "windows"
         ],
         "quotes": [
             "error",
