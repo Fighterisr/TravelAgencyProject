@@ -1,0 +1,34 @@
+{
+  "name": "travelagencyproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "mocha test/*.spec.js --color",
+    "lint": "eslint src/*.js --color",
+    "fix": "eslint src/*.js --fix --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fighterisr/TravelAgencyProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fighterisr/TravelAgencyProject/issues"
+  },
+  "homepage": "https://github.com/Fighterisr/TravelAgencyProject#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "chai": "^4.3.3",
+    "eslint": "^7.21.0",
+    "eslint-plugin-react": "^7.22.0",
+    "mocha": "^8.3.1",
+    "nodemon": "^2.0.7"
+  }
+}
