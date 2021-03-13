@@ -2,13 +2,11 @@ const express = require('express');
 const port = process.env.PORT || 3000;
 const app = express();
 
-app.get('/', (req,res) => {
-    res.send('hello world');
+app.use(express.static('src'));
 
-});
+app.get('/', (req, res)=> {
+    res.sendFile(__dirname + '/Home.html');
 
-app.get('/profile', (req, res) => {
-    res.send('profile');
 });
 
 app.listen(port, ()=>{
