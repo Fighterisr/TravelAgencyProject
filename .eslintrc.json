@@ -15,9 +15,7 @@
         },
         "ecmaVersion": 12
     },
-    "plugins": [
-        "react"
-    ],
+
     "rules": {
         "indent": [
             "error",
@@ -30,6 +28,9 @@
         "semi": [
             "error",
             "always"
+        ],
+        "no-unused-vars": [
+            "off"
         ]
     }
 }
