@@ -34,10 +34,7 @@ client.connect(err => {
         res.render('home');
         res.status(200);
     });
-    app.get('/login.ejs', (req, res)=> {
-        res.render('login');
-        res.status(200);
-    });
+
     app.post('/auth', (req, res) => {
         let username = req.body.username;
         let password = req.body.password;
